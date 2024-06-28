@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<OutputType>Library</OutputType>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AssemblyName>Pquyquy.JWT.BearerValidation</AssemblyName>
+		<AssemblyTitle>Pquyquy.JWT.BearerValidation Library</AssemblyTitle>
+		<Product>Pquyquy.JWT.BearerValidation Library</Product>
+		<RootNamespace>Pquyquy.JWT.BearerValidation</RootNamespace>
+		<Authors>Andres Martinez</Authors>
+		<Copyright>Copyright © 2024</Copyright>
+		<Description>Library to validate JWT tokens</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Pquyquy.JWT\Pquyquy.JWT.csproj" />
+	</ItemGroup>
+
+</Project>
